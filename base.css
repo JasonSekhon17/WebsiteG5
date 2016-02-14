@@ -154,7 +154,9 @@ h1.pos_center_menu {
        text-align: center;
        padding-top: 50px;
     }
-
+    div.pizzadiv1 {
+        padding-bottom: 10px;
+    }
 img.pizzaimg1{
         border: 5px solid #FF3519;
         position: relative;
@@ -233,4 +235,125 @@ p.pizzadescript6{
         position: absolute;
         left: 1000px;
         top: 540px;
-    }                 
+    }  
+    
+    /*Dessert page*/
+div.dessertdiv1 {
+        padding-bottom: 100px;
+    }
+    
+    img.dessertimg1{
+        border: 5px solid #FF3519;
+        position: relative;
+        left: 50px;     
+    }
+    
+    p.dessertdescript1{
+            border:  1px solid black;
+            position: absolute;
+            left: 250px;
+            top: 150px;
+        }
+       
+    img.dessertimg2{
+            border: 5px solid #FF3519;
+            position: absolute;
+            left:800px;
+        
+        
+        }
+    
+    p.dessertdescript2{
+            border:  1px solid black;
+            position: absolute;
+            left: 1000px;
+            top: 150px;
+        }
+
+    img.dessertimg3{
+            border: 5px solid #FF3519;
+            position: relative;
+            left: 50px;    
+        }
+
+    p.dessertdescript3{
+            border:  1px solid black;
+            position: absolute;
+            left: 250px;
+            top: 450px;
+        }
+    
+    img.dessertimg4{
+            border: 5px solid #FF3519;
+            position: absolute;
+            left:800px;
+        }
+
+    p.dessertdescript4{
+            border:  1px solid black;
+            position: absolute;
+            left: 1000px;
+            top: 450px;
+        }
+    
+    /*Side dish page*/ 
+    
+     div.sidediv1 {
+     padding-bottom: 100px;
+        }
+    
+    img.sideimg1{
+            border: 5px solid #FF3519;
+            position: relative;
+            left: 50px;     
+        }
+    
+    p.sidedescript1{
+            border:  1px solid black;
+            position: absolute;
+            left: 250px;
+            top: 150px;
+        }
+    
+    img.sideimg2{
+            border: 5px solid #FF3519;
+            position: absolute;
+            left:800px;
+        
+        
+        }
+    
+    p.sidedescript2{
+            border:  1px solid black;
+            position: absolute;
+            left: 1000px;
+            top: 150px;
+        }
+  
+    img.sideimg3{
+            border: 5px solid #FF3519;
+            position: relative;
+            left: 50px;    
+        }
+
+    p.sidedescript3{
+            border:  1px solid black;
+            position: absolute;
+            left: 250px;
+            top: 450px;
+        }
+    
+    img.sideimg4{
+            border: 5px solid #FF3519;
+            position: absolute;
+            left:800px;
+        }
+
+    p.sidedescript4{
+            border:  1px solid black;
+            position: absolute;
+            left: 1000px;
+            top: 450px;
+        }
+    
+    
