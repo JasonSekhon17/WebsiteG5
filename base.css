@@ -149,7 +149,7 @@
     }
 
 
-    /*....header for menu sub-pages....*/
+    /*....header for menu sub-pages, pizza page below it....*/
 h1.pos_center_menu {
        text-align: center;
        padding-top: 50px;
@@ -195,7 +195,7 @@ p.pizzadescript3{
         border:  1px solid black;
         position: absolute;
         left: 250px;
-        top: 350px;
+        top: 450px;
     }
     
 img.pizzaimg4{
@@ -208,7 +208,7 @@ p.pizzadescript4{
         border:  1px solid black;
         position: absolute;
         left: 1000px;
-        top: 350px;
+        top: 450px;
     }
     
 img.pizzaimg5{
@@ -221,7 +221,7 @@ p.pizzadescript5{
         border:  1px solid black;
         position: absolute;
         left: 250px;
-        top: 540px;
+        top: 700px;
     }
   
 img.pizzaimg6{
@@ -234,7 +234,7 @@ p.pizzadescript6{
         border:  1px solid black;
         position: absolute;
         left: 1000px;
-        top: 540px;
+        top: 700px;
     }  
     
     /*Dessert page*/
