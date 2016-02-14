@@ -8,11 +8,11 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="base.css">
     <meta charset="UTF-8">
+    <title>Promotions</title>
 </head>
 <body>
    
 <div id="container">
-    <div id="slidecontainer">
         <div class="navbar navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
@@ -26,11 +26,11 @@
             </div>
                 <div class="collapse navbar-collapse navHeaderCollapse">
                     <ul class="nav navbar-nav navbar-right">
-                        <li class="active"><a href ="index.html">Home</a></li>
-                        <li class="dropdown"><a href ="#" class="dropdown-toggle" data-toggle="dropdown">Menu <b class="caret"></b></a>
+                        <li><a href ="index.html">Home</a></li>
+                        <li class="dropdown active"><a href ="#" class="dropdown-toggle" data-toggle="dropdown">Menu <b class="caret"></b></a>
                             <ul class="dropdown-menu">
                                 <li><a href="menupizza.html">Pizza</a></li>
-                                <li><a href="menudessert.html">Dessert</a></li>
+                                <li class="active"><a href="menudessert.html">Dessert</a></li>
                                 <li><a href="menusides.html">Sides</a></li>
                             </ul>
                         </li>
@@ -52,62 +52,26 @@
                 </div>
         </div>
     </div>
-
-    <!-- This slideshow is a work in progress. Right now it's used to display one image -->
-        <div id="slideshow" class="cycle-slideshow"
-           data-cycle-fx = "fade"
-           data-cycle-speed = "600"
-           data-cycle-timeout = "4000"
-           data-cycle-pager = "#pager"
-           data-cycle-pager-template ="<a href='#'><img src='{{src}}' height=100 width=150/>"
-           data-cycle-next = "#next"
-           data-cycle-prev = "#prev"
-           data-cycle-manual-fx = "scrollHorz"
-           data-cycle-manual-speed = "400"
-           data-cycle-pager-fx = "fade">
-            <img src="img/Spring%20Scenery.jpg" alt="">
-            <!--
-            <img src="img/back.jpg" alt="">
-            <img src="img/Beige%20Lake%20Mt.jpg" alt="">
-            <img src="img/keys.jpg" alt="">
-            -->
-        </div>
-        <div id="pager"></div>
-    </div>
-
-    <div class="gallery">
-    <div class="container">
-    <div class="row">
-        <div class="col-md-4 col-xs-12 well" id="info"><p><img src="img/placeholder.jpg"></p></div>
-        <div class="col-md-3 col-md-offset-1 col-xs-12 well" id="info"><p>SAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXT</p></div>
-        <div class="col-md-3 col-md-offset-1 col-xs-12 well" id="info"><p>SAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXT</p></div>
-        <div class="col-md-3 col-md-offset-1 col-xs-12 well" id="info"><p>SAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXT</p></div>
-        <div class="col-md-3 col-md-offset-1 col-xs-12 well" id="info"><p>SAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXT</p></div>
-    </div>
-    <div class="row">
-        <div class="col-md-6 col-xs-12 well" id="info"><p>SAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXT</p></div>
-        <div class="col-md-5 col-md-offset-1 col-xs-12 well" id="info"><p>SAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXT</p></div> 
-    </div>
-        </div>
-       
-    </div>
+        <!--body of FAQ page-->
+        <h1 class="pos_center_menu">Promotions</h1>
+        <div class="gallery">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5" id="faqtitle"><p>FAQ</p></div>
+                    <div class="col-md-5 col-md-offset-2" id="faqtitle"><p>FAQ</p></div>
+                    <div class="col-md-5" id="faqcontent"><p>SAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXT</p></div>
+                    <div class="col-md-5 col-md-offset-2" id="faqcontent"><p>SAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXT</p></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-5" id="faqtitle"><p>FAQ</p></div>
+                    <div class="col-md-5 col-md-offset-2" id="faqtitle"><p>FAQ</p></div>
+                    <div class="col-md-5" id="faqcontent"><p>SAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXT</p></div>
+                    <div class="col-md-5 col-md-offset-2" id="faqcontent"><p>SAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXT</p></div>
+                </div>
+            </div>
+         </div>   
 </div>
-
-    <div id="postingBoard">
-        <div class="container">
-        <div id="boxcontroller">
-            <div class="row">
-            <div class="posting col-md-4 col-xs-12 well"><img src="img/placeholder.jpg"><h1>HEADER</h1><p>sample text</p></div>
-            <div class="posting col-md-4 col-xs-12 well"><img src="img/placeholder.jpg"><h1>HEADER 2</h1><p>sample text</p></div>
-            <div class="posting col-md-4 col-xs-12 well"><img src="img/placeholder.jpg"><h1>HEADER 3</h1><p>sample text</p></div>
-        </div>
-        </div>
-        </div>
-    </div>
-</div>
-    </div>
-</div>
-
+        <!--end of body for page FAQ-->
 <footer id="footer">
     <div id="boxcontroller">
         <div class="container">
