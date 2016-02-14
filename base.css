@@ -149,5 +149,88 @@
     }
 
 
+    /*....header for menu sub-pages....*/
+h1.pos_center_menu {
+       text-align: center;
+       padding-top: 50px;
+    }
 
+img.pizzaimg1{
+        border: 5px solid #FF3519;
+        position: relative;
+        left: 50px;     
+    }
+    
+p.pizzadescript1{
+        border:  1px solid black;
+        position: absolute;
+        left: 250px;
+        top: 150px;
+    }
+    
+img.pizzaimg2{
+        border: 5px solid #FF3519;
+        position: absolute;
+        left:800px;
+        
+        
+    }
+    
+p.pizzadescript2{
+        border:  1px solid black;
+        position: absolute;
+        left: 1000px;
+        top: 150px;
+    }
 
+img.pizzaimg3{
+        border: 5px solid #FF3519;
+        position: relative;
+        left: 50px;    
+    }
+
+p.pizzadescript3{
+        border:  1px solid black;
+        position: absolute;
+        left: 250px;
+        top: 350px;
+    }
+    
+img.pizzaimg4{
+        border: 5px solid #FF3519;
+        position: absolute;
+        left:800px;
+    }
+
+p.pizzadescript4{
+        border:  1px solid black;
+        position: absolute;
+        left: 1000px;
+        top: 350px;
+    }
+    
+img.pizzaimg5{
+        border: 5px solid #FF3519;
+        position: relative;
+        left: 50px;    
+    }
+
+p.pizzadescript5{
+        border:  1px solid black;
+        position: absolute;
+        left: 250px;
+        top: 540px;
+    }
+  
+img.pizzaimg6{
+        border: 5px solid #FF3519;
+        position: absolute;
+        left:800px;
+    }
+    
+p.pizzadescript6{
+        border:  1px solid black;
+        position: absolute;
+        left: 1000px;
+        top: 540px;
+    }                 
