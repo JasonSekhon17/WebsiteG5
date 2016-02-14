@@ -1,0 +1,153 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    #container{
+        width:100%;
+    }
+    /*......navegation..........*/
+
+    .navbar{
+        margin:0px;
+        background-color: #f2f2f2;
+    }
+
+    .navbar-toggle span{
+        background-color: black;
+    }
+
+    .navbar a{
+        font-weight: bold;
+        color: #FF3519;
+    }
+
+    .navbar a:hover{
+        color: #0066FF;
+    }
+
+    .active a{
+        background-color:#eee;
+        color: #0066FF;
+    }
+
+    /*......navegation end..........*/
+    /*.......Slideshow..............*/
+    #slidecontainer {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        background: #fff;
+        opacity: 50%;
+        margin: 0 auto 20px auto;
+        border-bottom: 5px solid black;
+
+    }
+
+    #slideshow {
+        height: auto;
+        width: 100%;
+    }
+    #slideshow img {
+        height: 75%;
+        width: 100%;
+    }
+    /*..........Slideshow end........*/
+
+    /*......Picture gallery..........*/
+    #info{
+        border:5px solid #FF3519;
+        margin-bottom:25px;
+    }
+
+    #info p{
+        word-wrap: break-word;
+    }
+
+    #info img{
+        max-width:100%;
+        max-height:100%;
+        border-radius: 10px;
+    }
+        /*........Picture gallery end.....*/
+        /*........postingBoard..........*/
+    #postingBoard{
+        padding-top:25px;
+        width: 100%;
+        height: 100%;
+        background-color: #333;
+    }
+    #postingBoard .posting{
+        word-wrap: break-word;
+        background: white;
+        border:5px solid #FF3519;
+
+    }
+
+    #postingBoard .posting img{
+        max-width:100%;
+        max-height:100%;
+        border-radius: 10px;
+    }
+
+    #postingBoard .posting h1{
+        text-align: center;
+    }
+
+    /*......postingBoard end.........*/
+    /*.......footer start............*/
+    #footer{
+        width:100%;
+        background-image: url("img/wood.jpeg");
+        background-size: cover;
+        color: white;
+        position: relative;
+        
+    }
+    #footer #boxcontroller{
+        width:90%;
+        margin: auto;
+    }
+    #footer .headerInFooter{
+        font-family: "Apple Chancery", Georgia, serif;
+        font-weight: bold;
+        font-size: 25px;
+    }
+    #footer #statement{
+        text-align: center;
+        font-size: 20px;
+        margin:auto;
+        padding: 20px;
+    }
+    #footer #location{
+        height: 300px;
+        text-align: center;
+        font-size: 20px;
+        margin:auto;
+        padding: 20px;
+    }
+    #location span a{
+        color:#FFAF94;
+    }
+    
+    #footer #connect{
+        height: 300px;
+        text-align: center;
+        font-size: 20px;
+        margin:auto;
+        padding: 20px;
+    }
+    #footer #connect img{
+        width:50px;
+        height:50px;
+    }
+
+    #footer #secondLine{
+        text-align: center;
+    }
+    #footer #copyTag{
+        text-align: center;
+    }
+
+
+
+
