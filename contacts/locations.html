@@ -6,9 +6,9 @@
 
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="base.css">
+    <link rel="stylesheet" type="text/css" href="../base.css">
     <meta charset="UTF-8">
-    <title>Promotions</title>
+    <title>Locations</title>
 </head>
 <body>
    
@@ -16,7 +16,7 @@
         <div class="navbar navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
-                <a class="navbar-brand" href="index.html">Pizza City</a>
+                <a class="navbar-brand" href="../index.html">Pizza City</a>
 
                 <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
                     <span class="icon-bar"></span>
@@ -26,52 +26,46 @@
             </div>
                 <div class="collapse navbar-collapse navHeaderCollapse">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href ="index.html">Home</a></li>
-                        <li class="dropdown active"><a href ="#" class="dropdown-toggle" data-toggle="dropdown">Menu <b class="caret"></b></a>
+                        <li><a href ="../index.html">Home</a></li>
+                        <li class="dropdown"><a href ="#" class="dropdown-toggle" data-toggle="dropdown">Menu <b class="caret"></b></a>
                             <ul class="dropdown-menu">
-                                <li><a href="menupizza.html">Pizza</a></li>
-                                <li class="active"><a href="menudessert.html">Dessert</a></li>
-                                <li><a href="menusides.html">Sides</a></li>
+                                <li><a href="../menu/pizza.html">Pizza</a></li>
+                                <li><a href="../menu/dessert.html">Dessert</a></li>
+                                <li><a href="../menu/sides.html">Sides</a></li>
                             </ul>
                         </li>
-                        <li class="dropdown"><a href ="#" class="dropdown-toggle" data-toggle="dropdown">Contacts <b class="caret"></b></a>
+                        <li class="dropdown active"><a href ="#" class="dropdown-toggle" data-toggle="dropdown">Contacts <b class="caret"></b></a>
                             <ul class="dropdown-menu">
-                                <li><a href="#">Locations</a></li>
-                                <li><a href="#">FAQ</a></li>
-                                <li><a href="#">Customer Feedback</a></li>
+                                <li class="active"><a href="locations.html">Locations</a></li>
+                                <li><a href="faq.html">FAQ</a></li>
+                                <li><a href="customerfeedback.html">Customer Feedback</a></li>
                             </ul>
                         </li>
                         <li class="dropdown"><a href ="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
                             <ul class="dropdown-menu">
-                                <li><a href="#">Community</a></li>
-                                <li><a href="#">Environment</a></li>
+                                <li><a href="../about/community.html">Community</a></li>
+                                <li><a href="../about/environment.html">Environment</a></li>
                             </ul>
                         </li>
-                        <li><a href ="#">Promos</a></li>
+                        <li><a href ="../promotions/promos.html">Promos</a></li>
                     </ul>
                 </div>
         </div>
     </div>
-        <!--body of FAQ page-->
-        <h1 class="pos_center_menu">Promotions</h1>
-        <div class="gallery">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-5" id="faqtitle"><p>FAQ</p></div>
-                    <div class="col-md-5 col-md-offset-2" id="faqtitle"><p>FAQ</p></div>
-                    <div class="col-md-5" id="faqcontent"><p>SAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXT</p></div>
-                    <div class="col-md-5 col-md-offset-2" id="faqcontent"><p>SAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXT</p></div>
-                </div>
-                <div class="row">
-                    <div class="col-md-5" id="faqtitle"><p>FAQ</p></div>
-                    <div class="col-md-5 col-md-offset-2" id="faqtitle"><p>FAQ</p></div>
-                    <div class="col-md-5" id="faqcontent"><p>SAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXT</p></div>
-                    <div class="col-md-5 col-md-offset-2" id="faqcontent"><p>SAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXT</p></div>
-                </div>
-            </div>
-         </div>   
-</div>
-        <!--end of body for page FAQ-->
+        <!--body of locations page-->
+        <div class="title">
+        <h1>Locations</h1>
+               <iframe id="locationmap" src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d5208.638051717337!2d-123.00577287444099!3d49.25139882048041!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x5486771fb8090e0f%3A0x5f739c98899e4270!2s3700+Willingdon+Ave%2C+Burnaby%2C+BC+V5G!3m2!1d49.251391899999994!2d-123.0013955!5e0!3m2!1sen!2sca!4v1455499463775" ></iframe>
+               <p>3700 Willingdon Ave</p>
+               <p>Burnaby, BC</p>
+               <p>V5G 3H2</p>
+               <p>Mon - Fri 6:30 AM - 10PM</p>
+               <p>779-123-123</p>               
+                
+           </div>
+               
+    </div>
+        <!--end of body for page locations-->
 <footer id="footer">
     <div id="boxcontroller">
         <div class="container">
@@ -122,10 +116,10 @@
 </footer>
  
 </body>
-    <script type="text/javascript" src="TeamProject.js"></script>
-    <script type="text/javascript" src="js/cycle2.js"></script>
+    <script type="text/javascript" src="../TeamProject.js"></script>
+    <script type="text/javascript" src="../js/cycle2.js"></script>
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     <script src = "http://code.jquery.com/jquery-1.9.1.js"></script>
-    <script type="text/javascript" src = "bootstrap-3.3.6-dist/js/bootstrap.js"></script>
+    <script type="text/javascript" src = "../bootstrap-3.3.6-dist/js/bootstrap.js"></script>
 </html>
