@@ -37,7 +37,7 @@
         height: auto;
         overflow: hidden;
         background: #fff;
-        opacity: 50%;
+        opacity: 1;
         margin: 0 auto 20px auto;
         border-bottom: 5px solid black;
 
@@ -110,6 +110,99 @@
         word-wrap: break-word;
     }
     /*.............FAQ section ends..............*/
+    /*.............Location section............*/
+    
+    #locationmap {
+        margin-top: 1em;
+        margin-bottom: 1em;
+        width :40em; 
+        height:30em;
+        max-width: 100%; 
+        max-height: 100%;
+        border: 5px solid #FF3519; 
+        allowfullscreen;
+    }
+    
+    #locationinfo {
+        text-align: center;  
+    }
+    
+    
+    /*.............Location section end........*/
+    
+     /*.............Feedback section...................*/
+    #feedbackFormSection {
+        margin:15px 0 0 15px ;
+        text-align: center;
+    }
+    
+    #feedbackExplanation {
+        margin:15px 0 0 15px 
+    }
+    
+    #feedbackOldCommentsSection {
+        margin:15px 0 0 15px ;
+    }
+    
+    form { 
+        background-color: #eee;
+        font-family: Helvetica, Arial, sans-serif;
+        padding: 2em 1em 2em 1em;
+    }
+    
+    textarea {
+        
+    }
+    
+    .feedbackOld {
+        padding: 5px;
+        margin: 0 1em 1em 1em;
+    }
+    
+    .feedbackOldName{
+        background-color: #808080;
+        color: #fff;
+        word-wrap: break-word;
+        margin: 0;
+        padding: 5px;
+        padding-left: 15px;
+    }
+    
+    .feedbackOldComment{
+        background-color: #eee;
+        color: #000;
+        margin: 0;
+        padding: 5px;
+        padding-left: 15px;
+        word-wrap: break-word;
+    }
+    
+    .rating {
+        unicode-bidi: bidi-override;
+        direction: rtl;
+        text-align: center;
+    }
+    .rating > span {
+        display: inline-block;
+        position: relative;
+        width: 1.1em;
+}
+    .rating > span:hover:before,
+    .rating > span:hover ~ span:before {
+        content: "\2605";
+        position: absolute;
+    }
+    
+    #faqcontent {
+        background-color: #eee;
+        margin-bottom: 50px;
+    }
+    
+    #faqcontent p {
+        word-wrap: break-word;
+    }
+    /*.............Feedback section ends..............*/
+    
         /*........postingBoard..........*/
     #postingBoard{
         padding-top:25px;
