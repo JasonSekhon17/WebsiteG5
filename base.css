@@ -5,7 +5,7 @@
     #container{
         width:100%;
     }
-    /*......navigation..........*/
+    /*......navegation..........*/
 
     .navbar{
         margin:0px;
@@ -30,15 +30,19 @@
         color: #0066FF;
     }
 
-    /*......navigation end..........*/
+    /*......navegation end..........*/
     /*.......Slideshow..............*/
     #slidecontainer {
         width: 100%;
         height: auto;
         overflow: hidden;
         background: #fff;
+<<<<<<< HEAD
+        opacity: 50%;
+=======
         opacity: 1;
         margin: 0 auto 20px auto;
+>>>>>>> 55a4670476c274d3e9a8eef69f72d25608e7321b
         border-bottom: 5px solid black;
 
     }
@@ -53,10 +57,40 @@
     }
     /*..........Slideshow end........*/
 
+    /*...........title...............*/
+    .title{
+        margin-top: 60px;
+        text-align: center;
+    }
+
+    .title h1{
+        font-weight: bold;
+    }
+
+    .title img{
+        width: 100%;
+        border:5px solid #FF3519;
+        border-radius: 5px;
+    }
+
+    /*.........title end.............*/
+
+    /*..........Food Items...........*/
+    .menu-layout{
+        margin-bottom:25px;
+    }
+    .menu-layout .fooditem{
+        margin-top: 25px
+    }
+    /*........Food Items end.........*/
+
     /*......Picture gallery..........*/
+    .gallery{
+        margin-top:25px;
+    }
+
     #info{
         border:5px solid #FF3519;
-        margin-bottom:25px;
     }
 
     #info p{
@@ -68,7 +102,31 @@
         max-height:100%;
         border-radius: 10px;
     }
-        /*........Picture gallery end.....*/
+    /*........Picture gallery end.....*/
+    /*........postingBoard..........*/
+    #postingBoard{
+        padding-top:25px;
+        background-color: #333;
+    }
+    #postingBoard .posting{
+        word-wrap: break-word;
+        background: white;
+        border:5px solid #FF3519;
+
+    }
+
+    #postingBoard .posting img{
+        max-width:100%;
+        max-height:100%;
+        border-radius: 10px;
+    }
+
+    #postingBoard .posting h1{
+        text-align: center;
+    }
+
+    /*......postingBoard end.........*/
+
     /*.............Promotions section............*/
     
     #promoinfo {
@@ -90,27 +148,38 @@
     }
     /*.............Promotions section end........*/
     /*.............FAQ section...................*/
+    .faqbox{
+        margin-bottom:25px;
+    }
     #faqtitle {
-        background-color: #808080;
+        background-color: #FF3519;
         padding: 5px 0 0 0;
+    }
+
+    #faqtitle h4{
+        font-weight:bold;
     }
     
     #faqtitle p {
-        color: #fff;
+        color: black;
         word-wrap: break-word;
         padding-left: 15px;
     }
     
     #faqcontent {
         background-color: #eee;
-        margin-bottom: 50px;
+        padding: 10px;
     }
     
     #faqcontent p {
         word-wrap: break-word;
     }
     /*.............FAQ section ends..............*/
+<<<<<<< HEAD
+        /*.............Location section............*/
+=======
     /*.............Location section............*/
+>>>>>>> 55a4670476c274d3e9a8eef69f72d25608e7321b
     
     #locationmap {
         margin-top: 1em;
@@ -120,7 +189,13 @@
         max-width: 100%; 
         max-height: 100%;
         border: 5px solid #FF3519; 
+<<<<<<< HEAD
         allowfullscreen: ;
+=======
+        allowfullscreen;
+<<<<<<< HEAD
+=======
+>>>>>>> 864cfd93d2b800d10e353f3c9566d1e878d27d1a
     }
     
     #locationinfo {
@@ -210,25 +285,90 @@
         width: 100%;
         height: 100%;
         background-color: #333;
+>>>>>>> 55a4670476c274d3e9a8eef69f72d25608e7321b
     }
-    #postingBoard .posting{
-        word-wrap: break-word;
-        background: white;
-        border:5px solid #FF3519;
-
+    
+    #locationinfo {
+        text-align: center;  
     }
-
-    #postingBoard .posting img{
-        max-width:100%;
-        max-height:100%;
-        border-radius: 10px;
-    }
-
-    #postingBoard .posting h1{
+    
+    
+    /*.............Location section end........*/
+    
+     /*.............Feedback section...................*/
+    #feedbackFormSection {
+        margin:15px 0 0 15px ;
         text-align: center;
     }
+    
+    #feedbackExplanation {
+        margin:15px 0 0 15px 
+    }
+    
+    #feedbackOldCommentsSection {
+        margin:15px 0 0 15px ;
+    }
+    
+    form { 
+        background-color: #eee;
+        font-family: Helvetica, Arial, sans-serif;
+        padding: 2em 1em 2em 1em;
+    }
+    
+    textarea {
+        
+    }
+    
+    .feedbackOld {
+        padding: 5px;
+        margin: 0 1em 1em 1em;
+    }
+    
+    .feedbackOldName{
+        background-color: #FF3519;
+        color: #fff;
+        word-wrap: break-word;
+        margin: 0;
+        padding: 5px;
+        padding-left: 15px;
+    }
+    
+    .feedbackOldComment{
+        background-color: #eee;
+        color: #000;
+        margin: 0;
+        padding: 5px;
+        padding-left: 15px;
+        word-wrap: break-word;
+    }
+    
+    #rating {
+        unicode-bidi: bidi-override;
+        direction: rtl;
+        text-align: center;
+    }
+    #rating > span {
+        display: inline-block;
+        position: relative;
+        width: 1.1em;
+}
+    #rating > span:hover:before,
+    #rating > span:hover ~ span:before {
+        content: "\2605";
+        position: absolute;
+        color: yellow;
+    }
+    
+    #faqcontent {
+        background-color: #eee;
+        margin-bottom: 50px;
+    }
+    
+    #faqcontent p {
+        word-wrap: break-word;
+    }
+    /*.............Feedback section ends..............*/
 
-    /*......postingBoard end.........*/
     /*.......footer start............*/
     #footer{
         width:100%;
@@ -284,211 +424,5 @@
     }
 
 
-    /*....header for menu sub-pages, pizza page below it....*/
-h1.pos_center_menu {
-       text-align: center;
-       padding-top: 50px;
-    }
-    div.pizzadiv1 {
-        padding-bottom: 10px;
-    }
-img.pizzaimg1{
-        border: 5px solid #FF3519;
-        position: relative;
-        left: 50px;     
-    }
-    
-p.pizzadescript1{
-        border:  1px solid black;
-        position: absolute;
-        left: 250px;
-        top: 150px;
-    }
-    
-img.pizzaimg2{
-        border: 5px solid #FF3519;
-        position: absolute;
-        left:800px;
-        
-        
-    }
-    
-p.pizzadescript2{
-        border:  1px solid black;
-        position: absolute;
-        left: 1000px;
-        top: 150px;
-    }
 
-img.pizzaimg3{
-        border: 5px solid #FF3519;
-        position: relative;
-        left: 50px;    
-    }
 
-p.pizzadescript3{
-        border:  1px solid black;
-        position: absolute;
-        left: 250px;
-        top: 450px;
-    }
-    
-img.pizzaimg4{
-        border: 5px solid #FF3519;
-        position: absolute;
-        left:800px;
-    }
-
-p.pizzadescript4{
-        border:  1px solid black;
-        position: absolute;
-        left: 1000px;
-        top: 450px;
-    }
-    
-img.pizzaimg5{
-        border: 5px solid #FF3519;
-        position: relative;
-        left: 50px;    
-    }
-
-p.pizzadescript5{
-        border:  1px solid black;
-        position: absolute;
-        left: 250px;
-        top: 700px;
-    }
-  
-img.pizzaimg6{
-        border: 5px solid #FF3519;
-        position: absolute;
-        left:800px;
-    }
-    
-p.pizzadescript6{
-        border:  1px solid black;
-        position: absolute;
-        left: 1000px;
-        top: 700px;
-    }  
-    
-    /*Dessert page*/
-div.dessertdiv1 {
-        padding-bottom: 100px;
-    }
-    
-    img.dessertimg1{
-        border: 5px solid #FF3519;
-        position: relative;
-        left: 50px;     
-    }
-    
-    p.dessertdescript1{
-            border:  1px solid black;
-            position: absolute;
-            left: 250px;
-            top: 150px;
-        }
-       
-    img.dessertimg2{
-            border: 5px solid #FF3519;
-            position: absolute;
-            left:800px;
-        
-        
-        }
-    
-    p.dessertdescript2{
-            border:  1px solid black;
-            position: absolute;
-            left: 1000px;
-            top: 150px;
-        }
-
-    img.dessertimg3{
-            border: 5px solid #FF3519;
-            position: relative;
-            left: 50px;    
-        }
-
-    p.dessertdescript3{
-            border:  1px solid black;
-            position: absolute;
-            left: 250px;
-            top: 450px;
-        }
-    
-    img.dessertimg4{
-            border: 5px solid #FF3519;
-            position: absolute;
-            left:800px;
-        }
-
-    p.dessertdescript4{
-            border:  1px solid black;
-            position: absolute;
-            left: 1000px;
-            top: 450px;
-        }
-    
-    /*Side dish page*/ 
-    
-     div.sidediv1 {
-     padding-bottom: 100px;
-        }
-    
-    img.sideimg1{
-            border: 5px solid #FF3519;
-            position: relative;
-            left: 50px;     
-        }
-    
-    p.sidedescript1{
-            border:  1px solid black;
-            position: absolute;
-            left: 250px;
-            top: 150px;
-        }
-    
-    img.sideimg2{
-            border: 5px solid #FF3519;
-            position: absolute;
-            left:800px;
-        
-        
-        }
-    
-    p.sidedescript2{
-            border:  1px solid black;
-            position: absolute;
-            left: 1000px;
-            top: 150px;
-        }
-  
-    img.sideimg3{
-            border: 5px solid #FF3519;
-            position: relative;
-            left: 50px;    
-        }
-
-    p.sidedescript3{
-            border:  1px solid black;
-            position: absolute;
-            left: 250px;
-            top: 450px;
-        }
-    
-    img.sideimg4{
-            border: 5px solid #FF3519;
-            position: absolute;
-            left:800px;
-        }
-
-    p.sidedescript4{
-            border:  1px solid black;
-            position: absolute;
-            left: 1000px;
-            top: 450px;
-        }
-    
-    
