@@ -18,3 +18,60 @@ function renderGrid(){
 window.addEventListener("load", renderGrid, false);
 window.addEventListener("resize", renderGrid, false);
 window.addEventListener("scroll", changeNav, false);
+
+
+
+//Feedback Form Functions
+var rating;
+
+function mySubmitFunction(event) {
+    
+    if (validateEmail(email) && validateName(personName)) {
+        return true;
+    } else {
+        event.preventDefault();
+        return false;
+    }
+}
+
+function validateEmail() {
+    var x = document.getElementById("email");
+    var email = x.value;
+    var regex1 = /(\w+)@([a-z]+)\.([a-z]+)$/;
+    if(regex1.test(email)) {
+        x.style.backgroundColor = "white";
+    } else {        
+        x.style.backgroundColor = "#ffcccc";
+    }
+    return regex1.test(email);
+}
+
+function validateName(personName) {
+    var x = document.getElementById("personName");
+    var name = x.value;
+    var regex2 = /^[a-zA-Z][a-z]+([\sa-zA-Z])+\s{0,}$/;
+    if(regex2.test(name)) {
+        x.style.backgroundColor = "white";
+    } else {        
+        x.style.backgroundColor = "#ffcccc";
+    }
+    return regex2.test(name);
+}
+
+function getStars(int){
+    var x = document.getElementById("firstStar");
+    var c = int;
+    for (i = 0; i < 5; ++i) {
+         
+         if(c > 0){
+            --c;
+            x.innerHTML = "★";
+            x.style.color = "yellow";
+            
+         } else {            
+            x.innerHTML = "☆";
+            x.style.color = "black";
+         }
+         x = x.previousElementSibling; 
+    }
+}

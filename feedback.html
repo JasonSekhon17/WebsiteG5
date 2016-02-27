@@ -7,6 +7,8 @@
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="base.css">
+
+    <script type="text/javascript" src="teamProject.js"></script>
     <meta charset="UTF-8">
 </head>
 <body>
@@ -57,19 +59,19 @@
       <div>
         <h1 class="pos_center_menu">Feedback</h1>
            <div id="feedbackFormSection">
-                <form name="comment" method="post" id="feedbackForm" action="http://webdevfoundations.net/scripts/formdemo.asp">
-                    <p></pName:>Name: <input type="text" name="personName" id="personName" required="required"></p>
-                    <p></pEmail:>Email: <input type="text" name="email" id="email" required="required"></p>
+                <form name="comment" method="post" id="feedbackForm" onsubmit="return mySubmitFunction(event);" action="http://webdevfoundations.net/scripts/formdemo.asp">
+                    <label>Name: <input type="text" name="personName" id="personName" required="required" onchange="validateName(personName)"> *</label>
+                    <br><label>Email: <input type="email" name="email" id="email" required="required" onchange="validateEmail(email)"> *</label>
                     
-                    <!--rating-->
-                    <div class="rating">
-                    <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                    <!--rating--> 
+                    <div id="rating">
+                    <span onclick ="getStars(5)">☆</span><span onclick ="getStars(4)">☆</span><span onclick ="getStars(3)">☆</span><span onclick ="getStars(2)">☆</span><span id="firstStar" onclick ="getStars(1)">☆</span>
                      </div>
                     <!--https://css-tricks.com/star-ratings/-->
 
                     <p>Comments:<br>
                     <textarea name="comments" id="comments" cols="90" rows="4"></textarea></p>
-                    <input type="submit" value="Submit Feedback">
+                    <input type="submit" value="Submit Feedback" >
                 </form>
            </div>
            <div id="feedbackExplanation">
@@ -119,9 +121,9 @@
             <p class="headerInFooter">Connect</p>
             <p>779-123-1234<br/>info@citypizza.com</p>
             <div id="socialmedia">
-            <a href="http://www.facebook.com"><img class="socialmedia" src="img/facebook.jpeg"></img></a>
-            <a href="http://www.twitter.com"><img class="socialmedia" src="img/twitter.png"></img></a>
-             <a href="http://www.instagram.com"><img class="socialmedia" src="img/instagram.png"></img></a>
+            <a href="http://www.facebook.com"><img class="socialmedia" src="img/facebook.jpeg" alt="Facebook"></img></a>
+            <a href="http://www.twitter.com"><img class="socialmedia" src="img/twitter.png" alt="Twitter"></img></a>
+             <a href="http://www.instagram.com"><img class="socialmedia" src="img/instagram.png" alt="Instagram"></img></a>
             </div>
         </div>
             </div>
