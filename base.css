@@ -125,7 +125,7 @@
 
     /*.............Promotions section............*/
     
-    .promoinfo {
+.promoinfo {
         margin-bottom: 25px;
     }
     
@@ -407,7 +407,3 @@
     #footer #copyTag{
         text-align: center;
     }
-
-
-
-
