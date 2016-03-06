@@ -1,0 +1,413 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    #container{
+        width:100%;
+    }
+    /*......navigation..........*/
+
+    .navbar{
+        margin:0px;
+        background-color: #f2f2f2;
+    }
+
+    .navbar-toggle span{
+        background-color: black;
+    }
+
+    .navbar a{
+        font-weight: bold;
+        color: #FF3519;
+    }
+
+    .navbar a:hover{
+        color: #0066FF;
+    }
+
+    .active a{
+        background-color:#eee;
+        color: #0066FF;
+    }
+
+    /*......navegation end..........*/
+    /*.......Slideshow..............*/
+    #slidecontainer {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        background: #fff;
+        opacity: 1;
+        margin: 0 auto 20px auto;
+        border-bottom: 5px solid black;
+
+    }
+
+    #slideshow {
+        height: auto;
+        width: 100%;
+    }
+    #slideshow img {
+        height: 75%;
+        width: 100%;
+    }
+    /*..........Slideshow end........*/
+
+    /*...........title...............*/
+    .title{
+        margin-top: 60px;
+        text-align: center;
+    }
+
+    .title h1{
+        font-weight: bold;
+    }
+
+    .title img{
+        width: 100%;
+        border:5px solid #FF3519;
+        border-radius: 5px;
+    }
+
+    /*.........title end.............*/
+
+    /*..........Food Items...........*/
+    .menu-layout{
+        margin-bottom:25px;
+    }
+    .menu-layout .fooditem{
+        margin-top: 25px
+    }
+    /*........Food Items end.........*/
+
+    /*......Picture gallery..........*/
+    .gallery{
+        margin-top:25px;
+    }
+
+    .info{
+        border:5px solid #FF3519;
+    }
+
+    .info p{
+        word-wrap: break-word;
+    }
+
+    .info img{
+        max-width:100%;
+        max-height:100%;
+        border-radius: 10px;
+    }
+    /*........Picture gallery end.....*/
+    /*........postingBoard..........*/
+    #postingBoard{
+        padding-top:25px;
+        background-color: #333;
+    }
+    #postingBoard .posting{
+        word-wrap: break-word;
+        background: white;
+        border:5px solid #FF3519;
+
+    }
+
+    #postingBoard .posting img{
+        max-width:100%;
+        max-height:100%;
+        border-radius: 10px;
+    }
+
+    #postingBoard .posting h1{
+        text-align: center;
+    }
+
+    /*......postingBoard end.........*/
+
+    /*.............Promotions section............*/
+    
+    .promoinfo {
+        margin-bottom: 25px;
+    }
+    
+    .promoimg {
+        margin-bottom: 25px;
+        border-bottom: 5px solid #FF3519;
+    }
+    
+    .promoimg img {
+        max-width:100%;
+        max-height:100%;
+    }
+    
+    .promoinfo p {
+        word-wrap: break-word;
+    }
+    /*.............Promotions section end........*/
+    /*.............FAQ section...................*/
+    .faqbox{
+        margin-bottom:25px;
+    }
+    .faqtitle {
+        background-color: #FF3519;
+        padding: 5px 0 0 0;
+    }
+
+    .faqtitle h4{
+        font-weight:bold;
+    }
+    
+    .faqtitle p {
+        color: black;
+        word-wrap: break-word;
+        padding-left: 15px;
+    }
+    
+    .faqcontent {
+        background-color: #eee;
+        padding: 10px;
+    }
+    
+    .faqcontent p {
+        word-wrap: break-word;
+    }
+    /*.............FAQ section ends..............*/
+        /*.............Location section............*/
+
+    #locationmap {
+        margin-top: 1em;
+        margin-bottom: 1em;
+        width :40em; 
+        height:30em;
+        max-width: 100%; 
+        max-height: 100%;
+        border: 5px solid #FF3519; 
+        allowfullscreen;
+    }
+    
+    #locationinfo {
+        text-align: center;  
+    }
+    
+    
+    /*.............Location section end........*/
+    
+     /*.............Feedback section...................*/
+    #feedbackFormSection {
+        margin:15px 0 0 15px;
+        text-align: center;
+    }
+    
+    #feedbackExplanation {
+        margin:15px 0 0 15px 
+    }
+    
+    #feedbackOldCommentsSection {
+        margin:15px 0 0 15px ;
+    }
+    
+    form { 
+        background-color: #eee;
+        font-family: Helvetica, Arial, sans-serif;
+        padding: 2em 1em 2em 1em;
+    }
+    
+    textarea {
+        width: fit-content;
+    }
+    
+    .feedbackOld {
+        padding: 5px;
+        margin: 0 1em 1em 1em;
+    }
+    
+    .feedbackOldName{
+        background-color: #808080;
+        color: #fff;
+        word-wrap: break-word;
+        margin: 0;
+        padding: 5px;
+        padding-left: 15px;
+    }
+    
+    .feedbackOldComment{
+        background-color: #eee;
+        color: #000;
+        margin: 0;
+        padding: 5px;
+        padding-left: 15px;
+        word-wrap: break-word;
+    }
+    
+    #rating {
+        unicode-bidi: bidi-override;
+        direction: rtl;
+        text-align: center;
+    }
+    #rating > span {
+        display: inline-block;
+        position: relative;
+        width: 1.1em;
+}
+    #rating > span:hover:before,
+    #rating > span:hover ~ span:before {
+        content: "\2605";
+        position: absolute;
+        color: yellow;
+    }
+    
+    #faqcontent {
+        background-color: #eee;
+        margin-bottom: 50px;
+    }
+    
+    #faqcontent p {
+        word-wrap: break-word;
+    }
+    /*.............Feedback section ends..............*/
+    
+        /*........postingBoard..........*/
+    #postingBoard{
+        padding-top:25px;
+        width: 100%;
+        height: 100%;
+        background-color: #333;
+    }
+    
+    #locationinfo {
+        text-align: center;  
+    }
+    
+    
+    /*.............Location section end........*/
+    
+     /*.............Feedback section...................*/
+    #feedbackFormSection {
+        margin:15px 0 0 15px ;
+        text-align: center;
+    }
+    
+    #feedbackExplanation {
+        margin:15px 0 0 15px 
+    }
+    
+    #feedbackOldCommentsSection {
+        margin:15px 0 0 15px ;
+    }
+    
+    form { 
+        background-color: #eee;
+        font-family: Helvetica, Arial, sans-serif;
+        padding: 2em 1em 2em 1em;
+    }
+    
+    textarea {
+        
+    }
+    
+    .feedbackOld {
+        padding: 5px;
+        margin: 0 1em 1em 1em;
+    }
+    
+    .feedbackOldName{
+        background-color: #FF3519;
+        color: #fff;
+        word-wrap: break-word;
+        margin: 0;
+        padding: 5px;
+        padding-left: 15px;
+    }
+    
+    .feedbackOldComment{
+        background-color: #eee;
+        color: #000;
+        margin: 0;
+        padding: 5px;
+        padding-left: 15px;
+        word-wrap: break-word;
+    }
+    
+    #rating {
+        unicode-bidi: bidi-override;
+        direction: rtl;
+        text-align: center;
+    }
+    #rating > span {
+        display: inline-block;
+        position: relative;
+        width: 1.1em;
+}
+    #rating > span:hover:before,
+    #rating > span:hover ~ span:before {
+        content: "\2605";
+        position: absolute;
+        color: yellow;
+    }
+    
+    #faqcontent {
+        background-color: #eee;
+        margin-bottom: 50px;
+    }
+    
+    #faqcontent p {
+        word-wrap: break-word;
+    }
+    /*.............Feedback section ends..............*/
+
+    /*.......footer start............*/
+    #footer{
+        width:100%;
+        background-image: url("img/wood.jpeg");
+        background-size: cover;
+        color: white;
+        position: relative;
+        
+    }
+    #footer .boxcontroller{
+        width:90%;
+        margin: auto;
+    }
+    #footer .headerInFooter{
+        font-family: "Apple Chancery", Georgia, serif;
+        font-weight: bold;
+        font-size: 25px;
+    }
+    #footer #statement{
+        text-align: center;
+        font-size: 20px;
+        margin:auto;
+        padding: 20px;
+    }
+    #footer #location{
+        height: 300px;
+        text-align: center;
+        font-size: 20px;
+        margin:auto;
+        padding: 20px;
+    }
+    #location span a{
+        color:#FFAF94;
+    }
+    
+    #footer #connect{
+        height: 300px;
+        text-align: center;
+        font-size: 20px;
+        margin:auto;
+        padding: 20px;
+    }
+    #footer #connect img{
+        width:50px;
+        height:50px;
+    }
+
+    #footer #secondLine{
+        text-align: center;
+    }
+    #footer #copyTag{
+        text-align: center;
+    }
+
+
+
+

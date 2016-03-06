@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="base.css">
+    <meta charset="UTF-8">
+    <title>Pizza City</title>
+</head>
+<body>
+   
+<div id="container">
+    <div id="slidecontainer">
+        <div class="navbar navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.html">Pizza City</a>
+
+                <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+                <div class="collapse navbar-collapse navHeaderCollapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href ="index.html">Home</a></li>
+                        <li class="dropdown"><a href ="#" class="dropdown-toggle" data-toggle="dropdown">Menu <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="menu/pizza.html">Pizza</a></li>
+                                <li><a href="menu/dessert.html">Dessert</a></li>
+                                <li><a href="menu/sides.html">Sides</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a href ="#" class="dropdown-toggle" data-toggle="dropdown">Contacts <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="contacts/locations.html">Locations</a></li>
+                                <li><a href="contacts/faq.html">FAQ</a></li>
+                                <li><a href="contacts/customerfeedback.html">Customer Feedback</a></li>
+                             </ul>
+                        </li>
+                        <li class="dropdown"><a href ="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="about/community.html">Community</a></li>
+                                <li><a href="about/environment.html">Environment</a></li>
+                            </ul>
+                        </li>
+                        <li><a href ="promotions/promos.html">Promos</a></li>
+                    </ul>
+                </div>
+        </div>
+    </div>
+
+    <!-- This slideshow is a work in progress. Right now it's used to display one image -->
+        <div id="slideshow" class="cycle-slideshow"
+           data-cycle-fx = "fade"
+           data-cycle-speed = "600"
+           data-cycle-timeout = "4000"
+           data-cycle-pager = "#pager"
+           data-cycle-pager-template ="<a href='#'><img src='{{src}}' height=100 width=150/>"
+           data-cycle-next = "#next"
+           data-cycle-prev = "#prev"
+           data-cycle-manual-fx = "scrollHorz"
+           data-cycle-manual-speed = "400"
+           data-cycle-pager-fx = "fade">
+            <img src="img/Spring-Scenery.jpg" alt="">
+            <!--
+            <img src="img/back.jpg" alt="">
+            <img src="img/Beige%20Lake%20Mt.jpg" alt="">
+            <img src="img/keys.jpg" alt="">
+            -->
+        </div>
+        <div id="pager"></div>
+    </div>
+
+    <div class="gallery">
+    <div class="container">
+    <div class="row">
+        <div class="col-md-4 col-xs-12 well info"><p><img src="img/placeholder.jpg" alt="placeholder"></p></div>
+        <div class="col-md-3 col-md-offset-1 col-xs-12 well info"><p>SAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXT</p></div>
+        <div class="col-md-3  col-md-offset-1 col-xs-12 well info"><p>SAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXT</p></div>
+        <div class="col-md-3 col-md-offset-1 col-xs-12 well info"><p>SAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXT</p></div>
+        <div class="col-md-3 col-md-offset-1 col-xs-12 well info"><p>SAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXT</p></div>
+    </div>
+        <div class="row">
+        <div class="col-md-6 col-xs-12 well info"><p>SAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXT</p></div>
+        <div class="col-md-5 col-md-offset-1 col-xs-12 well info"><p>SAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXTSAMPLETEXT</p></div> 
+    </div>
+        </div>
+       
+    </div>
+</div>
+
+    <div id="postingBoard">
+        <div class="container">
+        <div class="boxcontroller">
+            <div class="row">
+            <div class="posting col-md-4 col-xs-12 well"><img src="img/placeholder.jpg" alt="placeholder"><h1>HEADER</h1><p>sample text</p></div>
+            <div class="posting col-md-4 col-xs-12 well"><img src="img/placeholder.jpg" alt="placeholder"><h1>HEADER 2</h1><p>sample text</p></div>
+            <div class="posting col-md-4 col-xs-12 well"><img src="img/placeholder.jpg" alt="placeholder"><h1>HEADER 3</h1><p>sample text</p></div>
+        </div>
+        </div>
+        </div>
+    </div>
+
+<footer id="footer">
+    <div class="boxcontroller">
+        <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-xs-12">
+        <div class="firstLine" id="statement">
+            <p class="headerInFooter">City Pizza</p>
+            <p>we here promise use only organic<br /> ingredients to make our pizza<br/> and provide the best quality of our food <br/>for the customers.</p>
+        </div>
+            </div>
+            <div class="col-md-4 col-xs-12">
+        <div class="firstLine"  id="location">
+            <p class="headerInFooter">Location</p>
+            <p>3700 Willingdon Ave, Burnaby, BC V5G 3H2<br /><span><a href="https://www.google.ca/maps/place/3700+Willingdon+Ave,+Burnaby,+BC+V5G/@49.2513954,-123.0035895,17z/data=!3m1!4b1!4m2!3m1!1s0x5486771fb8090e0f:0x5f739c98899e4270">Get The Direction</a></span></p>
+        </div>
+            </div>
+            <div class="col-md-4 col-xs-12">
+        <div class="firstLine" id="connect">
+            <p class="headerInFooter">Connect</p>
+            <p>779-123-1234<br/>info@citypizza.com</p>
+            <div id="socialmedia">
+            <a href="http://www.facebook.com"><img class="socialmedia" src="img/facebook.jpeg" alt="facebook"></a>
+            <a href="http://www.twitter.com"><img class="socialmedia" src="img/twitter.png" alt="twitter"></a>
+             <a href="http://www.instagram.com"><img class="socialmedia" src="img/instagram.png" alt="instagram"></a>
+            </div>
+        </div>
+            </div>
+        </div>
+        <div class="row">
+        <div class="col-xs-12">
+    <div id="secondLine">
+        <P>logo here</P><br/>
+        <P></P>
+        </div>
+    </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12">
+    <div id="copyTag">
+        <p>&copy;Corporation City Pizza. All you welcome to join here</p>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+        
+</footer>
+ 
+
+    <script type="text/javascript" src="TeamProject.js"></script>
+    <script type="text/javascript" src="js/cycle2.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src = "http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src = "bootstrap-3.3.6-dist/js/bootstrap.js"></script>
+</body>
+</html>
