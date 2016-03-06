@@ -26,18 +26,18 @@ var rating;
 
 function mySubmitFunction(event) {
     
-    if (validateEmail(email) && validateName(personName)) {
-        return true;
+    if (validateEmail() && validateName(personName)) {
+        
     } else {
         event.preventDefault();
-        return false;
+      
     }
 }
 
 function validateEmail() {
     var x = document.getElementById("email");
     var email = x.value;
-    var regex1 = /(\w+)@([a-z]+)\.([a-z]+)$/;
+    var regex1 = /^(\w+)@([a-z]+)\.(com|ca|org|net|(co(m)?.[a-z][a-z])?)$/;
     if(regex1.test(email)) {
         x.style.backgroundColor = "white";
     } else {        
